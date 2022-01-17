@@ -1,8 +1,7 @@
 import { Button, Nav, NavItem } from "reactstrap";
-import Logo from "../../Logo/Logo";
+import Logo from "../../logo/Logo";
 import Link from "next/link";
 import { useRouter } from "next/router";
-import { useState } from "react";
 
 const navigation = [
   {
