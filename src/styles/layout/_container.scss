@@ -1,0 +1,51 @@
+.pageWrapper {
+  min-height: 100vh;
+}
+.contentArea {
+  flex-grow: 1;
+}
+.wrapper {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+.card {
+  margin-bottom: 30px;
+  box-shadow: $box-shadow;
+}
+.dropdown-menu {
+  box-shadow: $box-shadow;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.circle-box {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  border-radius: 100%;
+  &.lg-box {
+    width: 60px;
+    height: 60px;
+    font-size: 21px;
+    line-height: 60px;
+  }
+  &.md-box {
+    width: 50px;
+    height: 50px;
+    font-size: 18px;
+    line-height: 50px;
+  }
+}
+.button-group .btn {
+  margin: 3px;
+}
+.btn-white {
+  border: 1px solid $border-color;
+}
+.simplebar-scrollbar:before {
+  background: #a0a0a0;
+}
+.apexcharts-toolbar {
+  z-index: 0 !important;
+}
